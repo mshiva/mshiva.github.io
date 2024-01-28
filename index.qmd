@@ -1,7 +1,7 @@
 ---
 title: "Sivabalan (Shiva) Muthukumar"
 about:
-  template: marquee
+  template: jolla
   image: assets/images/profile_bg.jpg
   links:
       - icon: github
@@ -9,8 +9,26 @@ about:
         href: https://github.com/mshiva
       - icon: linkedin
         text: linkedin
-        href: https://linkedin.com/sivabalanmuthukumar
+        href: https://linkedin.com/in/sivabalanmuthukumar
 
 ---
 
-This is a basic introduction
+##### Highly accomplished technical leader, engineer and architect with a proven track record of driving exceptional results and successfully delivering complex and scalable solutions across different technologies and domains. 
+
+----
+
+:::{.grid .text-start}
+
+:::{.g-col-4}
+###### <i class="bi bi-file-easel bg-primary fs-4"></i> Thought leader skilled in mentoring and coaching, responsible for guiding teams and organizations in modern practices and concepts.
+:::
+
+:::{.g-col-4}
+###### <i class="bi bi-lightning-charge bg-primary fs-4"></i> Passionate engineer keen on learning new technologies and applying them to provide innovative solutions to real-world problems. 
+:::
+
+:::{.g-col-4}
+###### <i class="bi bi-journal-richtext bg-primary fs-4"></i> Hands-on engineer and architect well versed in applying best practices across foundational pillars - security, scalability, reliability, performance and operational readiness with a long history in cloud native development and transformation. 
+:::
+
+:::

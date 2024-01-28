@@ -15,11 +15,11 @@ website:
       - icon: github
         href: https://github.com/mshiva
       - icon: linkedin
-        href: https://linkedin.com/sivabalanmuthukumar
+        href: https://linkedin.com/in/sivabalanmuthukumar
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
 

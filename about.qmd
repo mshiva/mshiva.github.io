@@ -1,31 +1,207 @@
 ---
 title: "About"
-about:
-  template: marquee
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: github
-      text: Github
-      href: https://github.com
+toc: true
+format: 
+  html:
+    page-layout: full
 ---
 
 * Highly accomplished technical leader, engineer and architect with a proven track record of driving exceptional results and successfully delivering complex and scalable solutions across different technologies and domains. 
 * Thought leader skilled in mentoring and coaching, responsible for guiding teams and organizations in modern practices and concepts. Passionate engineer keen on learning new technologies and applying them to provide innovative solutions to real-world problems. 
-* Hands-on engineer and architect well versed in applying best practices across foundational pillars - security, scalability, reliability, performance and operational readiness and a long history in cloud native development and transformation.
-
-
-## Education
-
-University of California, San Diego | San Diego, CA
-
-PhD in Mathematics | Sept 2011 - June 2015
-
-Macalester College | St. Paul MA
-
-B.A in Economics | Sept 2007 - June 2011
+* Hands-on engineer and architect well versed in applying best practices across foundational pillars - security, scalability, reliability, performance and operational readiness with a long history in cloud native development and transformation.
 
 ## Experience
 
-Wengo Analytics | Head Data Scientist | April 2018 - present
+#### **Bread Financial Holdings**
+::: {.callout-note appearance="simple" icon="false"}
+
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Principal Engineer / Principal Enterprise Architect**
+:::
+:::{.g-col-3 .text-end}
+New York
+:::
+:::{.g-col-3 .text-end}
+Apr 2020 - Present
+:::
+
+:::
+Hands-on technology leader and architect for the BreadPay platform primarily focused on loans and lending products. Define platform strategy and establish roadmap. Advisory role supporting the cards business in various modernization initiatives. Mentoring and coaching engineers, providing feedback and guidance on their projects.
+
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Director of Engineering**
+:::
+:::{.g-col-3 .text-end}
+New York
+:::
+:::{.g-col-3 .text-end}
+Mar 2019 - Apr 2020
+:::
+
+:::
+Engineering leader for Bread's buy now pay later service and infrastructure teams. Scaling teams, coaching and establish hiring practices.
+:::
+
+#### **Digital Asset**
+::: {.callout-note appearance="simple" icon="false"}
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Engineering Team Lead**
+:::
+:::{.g-col-3 .text-end}
+New York
+:::
+:::{.g-col-3 .text-end}
+Aug 2016 - Mar 2019
+:::
+
+:::
+Team Leader for the design and development of the solution framework on the daml based distributed ledger platform. Global lead for developing the settlement system using smart contracts and distributed ledger to replace the legacy system for a leading exchange.
+:::
+
+#### **Lab49**
+::: {.callout-note appearance="simple" icon="false"}
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Associate Director**
+:::
+:::{.g-col-3 .text-end}
+New York
+:::
+:::{.g-col-3 .text-end}
+Dec 2015 - Aug 2016
+:::
+
+:::
+Practice head supporting lab's compute practice through coaching and mentoring. Support pre-sales process through analysis and client engagements. Perform architecture reviews and recommendations across various engagements.
+
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Principal Software Engineer**
+:::
+:::{.g-col-3 .text-end}
+New York
+:::
+:::{.g-col-3 .text-end}
+May 2013 - Dec 2015
+:::
+
+:::
+Lead large scale transformational engagements - Citi (Yield Book - Fixed Income Analytics Platform) and FannieMae (Lending Platform). Career development and mentorship for lab's compute practice.
+
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Software Engineer - Senior Software Engineer**
+:::
+:::{.g-col-3 .text-end}
+New York
+:::
+:::{.g-col-3 .text-end}
+Nov 2009 - May 2013
+:::
+
+:::
+Real Time desktop trading applications, Web based single dealer platforms and portfolio management systems across various investment banks and hedge funds.
+:::
+
+#### **Barclays**
+::: {.callout-note appearance="simple" icon="false"}
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Senior Software Engineer/Assistant Vice President**
+:::
+:::{.g-col-3 .text-end}
+New York
+:::
+:::{.g-col-3 .text-end}
+Aug 2009 - Nov 2009
+:::
+
+:::
+Lead engineer on the risk platform with a focus on performance and stability improvements..
+:::
+
+#### **Morgan Stanley**
+::: {.callout-note appearance="simple" icon="false"}
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Senior Software Engineer/Associate**
+:::
+:::{.g-col-3 .text-end}
+New York
+:::
+:::{.g-col-3 .text-end}
+Aug 2007 - Aug 2009
+:::
+
+:::
+Lead engineer on the equities and derivatives trading platforms.
+:::
+
+#### **Glaxo Smith Kline**
+::: {.callout-note appearance="simple" icon="false"}
+:::{.grid .text-start}
+
+:::{.g-col-4}
+**Senior Software Developer**
+:::
+:::{.g-col-5 .text-end}
+King of Prussia, Pennsylvania
+:::
+:::{.g-col-3 .text-end}
+Mar 2006 - Aug 2007
+:::
+
+:::
+Lead engineer in the design and development of study management platform to support clinical studies.
+:::
+
+#### **Texas Tech Health Science Center**
+::: {.callout-note appearance="simple" icon="false"}
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Senior Programmer/Analyst**
+:::
+:::{.g-col-3 .text-end}
+Lubbock, Texas
+:::
+:::{.g-col-3 .text-end}
+Dec 2004 - Mar 2006
+:::
+
+:::
+Design and development of web based portal for report discovery and management..
+:::
+
+## Education
+
+:::{.grid .text-start}
+
+:::{.g-col-9}
+**Texas Tech University** <br> Master of Science, Computer Science
+:::
+:::{.g-col-3 .text-end}
+Lubbock, TX <br> Aug 2002 - May 2005 
+:::
+
+:::{.g-col-9}
+**Madras University** <br> Bachelor of Engineering, Computer Science
+:::
+:::{.g-col-3 .text-end}
+Chennai, India <br> Aug 1998 - May 2002
+:::
+
+:::
+
+----

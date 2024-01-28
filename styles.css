@@ -1,1 +1,10 @@
 /* css styles */
+
+#experience .grid {
+  --bs-gap: 0rem;  
+}
+
+#education .grid {
+  --bs-gap: 0rem;
+}
+

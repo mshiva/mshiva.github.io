@@ -6,17 +6,12 @@
 <br />
 <div align="center">
   <a href="https://github.com/mshiva/mshiva.github.io">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="assets/images/profile_bg.jpg" alt="Logo">
   </a>
 
   <h3 align="center">Shiva - Portfolio</h3>
 
-  <p align="center">
-    Personal portfolio website
-    <br />   
-  </p>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -40,7 +35,6 @@
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -55,8 +49,6 @@ A simple portfolio website built and generated using Quarto.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Getting started instructions
-
 ### Prerequisites
 
 * Quarto
@@ -65,9 +57,13 @@ Getting started instructions
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Usage instructions
+### Preview
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Preview generates the site and stores them in the `_site` folder. It also has a watcher which will regenerates when any file is updated.
+
+```bash
+quarto preview
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,4 +74,4 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 [linkedin-url]: https://linkedin.com/in/sivabalanmuthukumar
 
 [Quarto]: https://img.shields.io/badge/quarto-000000?style=for-the-badge&logo=quarto&logoColor=white
-[Quarto-url]: https://quarto.org/
+[Quarto-url]: https://quarto.org/docs/get-started/
