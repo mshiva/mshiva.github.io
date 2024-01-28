@@ -1,0 +1,31 @@
+---
+title: "About"
+about:
+  template: marquee
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: github
+      text: Github
+      href: https://github.com
+---
+
+* Highly accomplished technical leader, engineer and architect with a proven track record of driving exceptional results and successfully delivering complex and scalable solutions across different technologies and domains. 
+* Thought leader skilled in mentoring and coaching, responsible for guiding teams and organizations in modern practices and concepts. Passionate engineer keen on learning new technologies and applying them to provide innovative solutions to real-world problems. 
+* Hands-on engineer and architect well versed in applying best practices across foundational pillars - security, scalability, reliability, performance and operational readiness and a long history in cloud native development and transformation.
+
+
+## Education
+
+University of California, San Diego | San Diego, CA
+
+PhD in Mathematics | Sept 2011 - June 2015
+
+Macalester College | St. Paul MA
+
+B.A in Economics | Sept 2007 - June 2011
+
+## Experience
+
+Wengo Analytics | Head Data Scientist | April 2018 - present

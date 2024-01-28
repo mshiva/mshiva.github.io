@@ -1,0 +1,16 @@
+---
+title: "Sivabalan (Shiva) Muthukumar"
+about:
+  template: marquee
+  image: assets/images/profile_bg.jpg
+  links:
+      - icon: github
+        text: github
+        href: https://github.com/mshiva
+      - icon: linkedin
+        text: linkedin
+        href: https://linkedin.com/sivabalanmuthukumar
+
+---
+
+This is a basic introduction
