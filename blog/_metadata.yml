@@ -1,0 +1,6 @@
+date-format: "MMM DD, YYYY"
+published-title: "Date"
+format:
+  html:
+    theme: flatly
+    page-layout: article    

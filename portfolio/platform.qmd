@@ -1,0 +1,87 @@
+---
+title: "Bread Platform"
+description: "Development of next gen white-label, multi-tenant digital payments platform enabling transformation from a pure B2B2C to a SaaS based platform model"
+categories: FinTech
+date: "12/30/2020"
+image: "../assets/images/bread_platform.png"
+about:
+  template: solana
+  links:
+    - text: Announcements
+      icon: bi-megaphone-fill
+      href: https://newsroom.breadfinancial.com/alliance-datas-breadr-business-announces-technology-partnership-royal-bank-canada-rbc
+---
+
+### Outcome
+
+* Major milestone in enabling business model transformation
+* Bread's first international expansion enabling RBC to offer new payment solution to their mechants and customers
+* Eventually enabled us to migrate existing clients from the legacy to new platform based on capabilities
+
+### Team
+
+::: {layout-ncol=2}
+|       |                         | 
+|:------|:------------------------|
+|*Role* | Principal Engineer      |
+|*Team* | 6                       |
+|*Size* | 70                      |
+
+: {.borderless}
+
+:::
+
+### Key Considerations
+
+::: {layout-ncol=2}
+
+::: {.callout-caution collapse="true"}
+#### Cross-Team Colloboration
+* Heavy colloboration was needed to ensure alignment across the teams
+* First Principles, standards, guidelines and common frameworks helped
+:::
+
+::: {.callout-caution collapse="true"}
+#### Timelines / Pandemic / Client Interactions
+
+* Pandameic made it harder for in-person colloborations with the team as well as the client
+* Very focussed effort to build only necessary capabilities to handle aggresive milestones
+:::
+
+:::
+
+### Technology
+
+::: {layout-ncol=3}
+
+######
+- Golang
+- Python
+
+######
+- Amazon RDS (Postgres)
+- Redis
+- MongoDB
+
+######
+- Kubernetes/EKS
+- Docker
+- Airflow
+- Istio
+
+######
+- REST
+- gRPC
+- Kafka
+
+######
+- Datadog
+- OpenTracing
+- OAuth2
+- Okta
+
+:::
+
+
+
+

@@ -1,0 +1,6 @@
+date-format: "MMM, YYYY"
+published-title: "Date"
+format:
+  html:
+    theme: flatly
+    css: portfolio.css

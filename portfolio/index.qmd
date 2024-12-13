@@ -1,0 +1,6 @@
+---
+listing: 
+  type: grid
+  sort: "date desc"
+  fields: [image, date, title, description]
+---

@@ -1,0 +1,72 @@
+---
+title: "Business Rule Orchestration - Lending"
+description: "A rule management and processing platform which enabled the business to efficiently apply rules and waivers to loans"
+date: "04/30/2014"
+image: "../assets/images/business_rule_engine.jpg"
+categories: Government Lending
+about:
+  template: solana
+
+---
+
+### Outcome
+
+Successfully delivered the rule platform which eliminated delays in making rule changes as well as reduced the processing time by a factor of about 20 to 30.
+
+### Team
+
+::: {layout-ncol=4}
+|       |                  | 
+|:------|:-----------------|
+|*Role* | Project Lead     |
+|*Team* | 1                |
+|*Size* | 10               |
+
+: {.borderless}
+
+:::
+
+
+### Key Considerations
+
+::: {layout-ncol=2}
+
+::: {.callout-caution collapse="true"}
+#### Working Model 
+
+Disconnects around a scrum based agile working model particularly early on where not all stories were able to be completed.
+
+:::
+
+::: {.callout-caution collapse="true"}
+#### Alignment / Approach
+
+There was not a clear alignment around the approach with a focus on configurability and correctness over performance.
+:::
+
+:::
+
+### Technology
+
+A modern single page application (SPA) connecting to highly scalable services through an REST API.
+
+::: {layout-ncol=4}
+
+######
+- Javascript
+- Backbone
+
+######
+- Java
+- Spring
+- Tibco EMS
+
+######
+- Oracle
+- Hibernate
+
+:::
+
+
+
+

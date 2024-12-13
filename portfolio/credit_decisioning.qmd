@@ -1,0 +1,70 @@
+---
+title: "Credit Decisioning"
+description: "Revamp credit decisioning engine and integrate a machine learning model for decisioning"
+categories: FinTech
+date: "11/30/2019"
+image: "../assets/images/credit_decisioning.jpg"
+about:
+  template: solana
+---
+
+### Outcome
+
+* Ability for risk to adjust risk rules without code changes
+* Productionize first ML model to support credit decisioning 
+
+### Team
+
+::: {layout-ncol=2}
+|       |                             | 
+|:------|:----------------------------|
+|*Role* | Director of Engineering     |
+|*Team* | 3                           |
+|*Size* | 14                          |
+
+: {.borderless}
+
+:::
+
+### Challenges
+
+::: {layout-ncol=2}
+
+::: {.callout-caution collapse="true"}
+#### Risk Platform
+
+* Shadow Deployment of new risk platform
+* Analysis
+
+:::
+
+::: {.callout-caution collapse="true"}
+#### ML Incorporation
+
+* Deployment & Runtime Pipeline
+* Considerations like bias, reasons, etc
+:::
+
+:::
+
+### Technology
+
+::: {layout-ncol=4}
+
+######
+- Golang
+- Python
+- ML
+
+######
+- Postgres
+
+#####
+- AWS
+- ECS
+
+:::
+
+
+
+

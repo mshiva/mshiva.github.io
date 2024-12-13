@@ -8,10 +8,19 @@ website:
     pinned: true
     left:
       - href: index.qmd
+        icon: house-fill
         text: Home
+      - text: Portfolio
+        icon: trophy
+        href: portfolio/index.qmd
+      - text: Blog
+        icon: substack
+        href: blog/index.qmd
     
     right:
-      - about.qmd
+      - text: About    
+        href: about.qmd
+        icon: file-person-fill            
       - icon: github
         href: https://github.com/mshiva
       - icon: linkedin

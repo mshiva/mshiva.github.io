@@ -1,0 +1,96 @@
+---
+title: "Yield Book"
+description: "A transformation initiative to revamp the foremost fixed income analytics platform used for complex portfolio analysis by institutional investors"
+date: "04/30/2016"
+image: "../assets/images/yield_book_logo.jpg"
+categories: Investment Bank
+about:
+  template: solana
+  links: 
+    - text: Announcements
+      icon: bi-megaphone-fill
+      href: https://www.prnewswire.com/news-releases/lab49-and-the-yield-book-collaborate-in-building-next-generation-fixed-income-analytics-platform-300299320.html
+    - text: Case Study
+      icon: bi-journal
+      href: https://www.lab49.com/case-studies/the-yield-book-revitalizing-a-market-favorite/
+
+---
+
+### Outcome
+
+Delivered a more modern, compelling and effective platform, enabling them to keep their pole position as well as resulting in a successful acquisition by London Stock Exchange .
+
+### Team
+
+::: {layout-ncol=4}
+|       |                  | 
+|:------|:-----------------|
+|*Role* | Project Lead     |
+|*Team* | 1 - 4            |
+|*Size* | 8 - 35           |
+
+: {.borderless}
+
+:::
+
+Brought on a few months into the project to help turn around and eventually enable scaling out the teams.
+
+### Key Considerations
+
+::: {layout-ncol=2}
+
+::: {.callout-caution collapse="true"}
+#### Delivery 
+
+Team was running behind significantly resulting in long hours and lower morale.
+
+* Identified key roadblocks and worked on eliminating them.
+* Opened communication channels with key stakeholders to agree to new commitments and change in approach without sacrificing quality.
+:::
+
+::: {.callout-caution collapse="true"}
+#### Integration
+
+Integration challenges with the underlying analytics system.
+
+* Worked with analytics team to move towards an contract based approach with clear specifications
+:::
+
+::: {.callout-caution collapse="true"}
+#### Team Scale Out
+
+Desire to scale out aggresively with launch of several new capabilities.
+
+* Brought on additional members resulting in tripling the team
+* Implemented modularized development and packaging to support parallel teams
+ 
+:::
+
+:::
+
+### Technology
+
+A modern single page application (SPA) connecting to highly scalable services through an REST API.
+
+::: {layout-ncol=4}
+
+######
+- Javascript
+- Angular
+- D3
+- Sass
+
+######
+- NodeJS
+- Java
+- REST
+
+######
+- BDD
+- Cucumber
+- RSpec
+:::
+
+
+
+

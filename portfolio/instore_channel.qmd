@@ -1,0 +1,81 @@
+---
+title: "BreadPay Instore Channel Expansion"
+description: "Expand BreadPay lending product offering to customers in store throough a seamless in-store customer experience"
+categories: FinTech
+date: "10/30/2023"
+image: "../assets/images/instore_channel.jpg"
+about:
+  template: solana
+  links:
+    - text: Announcements
+      icon: bi-megaphone-fill
+      href: https://www.pymnts.com/loans/2021/sezzle-bread-partner-on-loan-program/
+---
+
+### Outcome
+
+* Enabled our sales team to target more enterprise customers who wanted a holistic solution encompassing e-commn and in-store
+* Cutting edge capabilities providing a seamless customer experience
+* A transformational experience for various stakeholders and business partners showcasing the power of agility, continious learnings and incorporating them into our solutions
+
+### Team
+
+::: {layout-ncol=2}
+|       |                         | 
+|:------|:------------------------|
+|*Role* | Principal Engineer      |
+|*Team* | 4                       |
+|*Size* | 20                      |
+
+: {.borderless}
+
+:::
+
+### Key Considerations
+
+::: {layout-ncol=2}
+
+::: {.callout-caution collapse="true"}
+#### Cross-Functional Colloboration
+
+* Heavy colloboration across risk, fraud, marketing, sales due to developing a new experience for customers and clients
+* Negotiate reveneue trade-offs early for key real life learnings
+
+:::
+
+::: {.callout-caution collapse="true"}
+#### Agility
+
+* A more agile iterative approach was needed to ensure a frictionless experience for customer and clients
+* Had to pivot and choose alternate approaches based on learnings
+:::
+
+::: {.callout-caution collapse="true"}
+#### Cutting Edge Capabilities
+
+* Colloboration with key external partners - Issuer Processor, Card Network, Wallet Providers
+
+:::
+:::
+
+### Technology
+
+::: {layout-ncol=3}
+
+######
+- Golang
+
+######
+- Amazon RDS (Postgres)
+- Kafka
+- Redis
+
+######
+- Kubernetes
+- Docker
+
+:::
+
+
+
+

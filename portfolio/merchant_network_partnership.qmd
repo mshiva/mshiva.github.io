@@ -1,0 +1,76 @@
+---
+title: "Merchant Network Partnership"
+description: "A new partnership model offering Bread Pay lending products to customers through partner's merchant network."
+categories: FinTech
+date: "10/30/2021"
+image: "../assets/images/merchant_network_partnership.png"
+about:
+  template: solana
+  links:
+    - text: Announcements
+      icon: bi-megaphone-fill
+      href: https://www.pymnts.com/loans/2021/sezzle-bread-partner-on-loan-program/
+---
+
+### Outcome
+
+* A new business model leveraging partner's merchant network, opening up new opportunities with additional partnerships down the line
+* A pure API based platform integration with the partner integrating BreadPay into their existing acquisition experience
+
+### Team
+
+::: {layout-ncol=2}
+|       |                         | 
+|:------|:------------------------|
+|*Role* | Principal Engineer      |
+|*Team* | 3                       |
+|*Size* | 35                      |
+
+: {.borderless}
+
+:::
+
+### Key Consideration
+
+::: {layout-ncol=2}
+
+::: {.callout-caution collapse="true"}
+#### Cross-Functional Colloboration
+
+* Changes across various domain to enable new partnership model and configurability
+* Partner with sales and integrations to develop new automated onboarding process for partners
+
+:::
+
+::: {.callout-caution collapse="true"}
+#### Security Models
+
+* New security models to support a pure API integration model
+
+:::
+
+:::
+
+### Technology
+
+::: {layout-ncol=3}
+
+######
+- Golang
+- Python
+
+######
+- Amazon RDS (Postgres)
+- Kafka
+- Redis
+
+######
+- Kubernetes
+- Docker
+- Okta
+
+:::
+
+
+
+

@@ -1,0 +1,174 @@
+---
+title: "Functional Programming in C# - Maybe Monad"
+description: "Quick overview of implementing and using Maybe monad in C#"
+categories: 
+  - Functional Programming
+  - C#
+date: "02/21/2011"
+format: 
+  html:
+    page-layout: article
+about:
+  template: solana
+---
+
+### Overview
+
+Monads are getting a lot of attention with the proliferation of functional languages as well as in general purpose languages like C# ( LINQ is a good example). There are very good articles and videos which describes them in detail.
+
+A monad, in very simple terms, is an amplified type and provides a way to compose functions together. The Maybe monad is a very simple amplified type which defines the simple concept of whether a value exists or not. C# does have the Nullable<T> type but it is limited to value types. For reference types, it is defined as to whether the object is null. Maybe monad serves to unify it across both value and reference types as well as provide us a way to express our intent in a more declarative fashion.
+
+### Use Case
+
+Let us take a very simple example to illustrate this concept. Our aim is to get a item from a local cache or from the server depending on whether the item exists in the cache and display it to the user. Also if the item is being retrieved from the server, we would like to notify the consumer about it. If both operation we could like the raise an error. Let us assume that the service supports a method to retrieve the item(Retrieve). We will also assume that the consumer has the following three methods - Show (for displaying the item), Notify and Error.
+
+In general, this will be written as follows:
+
+```csharp
+Item item = cache.Get();
+if (item == null)
+{
+    consumer.Notify();
+    item = service.Retrieve();                
+}
+if (item != null)
+{
+    consumer.Show(item);
+}
+else
+{
+    consumer.Error();
+}
+```
+
+### Monad Implementation
+
+Monads are generally made up of two functions, Unit and Bind. The Maybe monad class itself is very simple.
+
+```csharp
+public class Maybe<T>
+{
+    public readonly static Maybe<T> Empty = new Maybe<T>();
+ 
+    public T Value { get; private set; }
+ 
+    public bool HasValue { get; private set; }
+ 
+    private Maybe()
+    {
+        HasValue = false;
+    }
+ 
+    public Maybe(T value)
+    {
+        Value = value;
+        HasValue = true;
+    }
+}
+```
+
+The Unit function lets us convert any value to the corresponding monad. It is generally easier if these functions are implemented as extension methods. In the case of Maybe monad, it is implemented as follows:
+
+```csharp
+public static Maybe<T> ToMaybe<T>(this Nullable<T> obj) where T : struct
+{
+    if (obj.HasValue)
+    {
+        return new Maybe<T>(obj.Value);
+    }
+    return Maybe<T>.Empty;
+}
+ 
+public static Maybe<T> ToMaybe<T>(this T value)
+{
+    if (!(value is ValueType))
+    {
+        if (object.ReferenceEquals(value, null))
+        {
+            return Maybe<T>.Empty;
+        }
+    }
+ 
+    return new Maybe<T>(value);
+}
+```
+
+There are two implementations here, because we need to able to convert any values ( structs, nullable structs and reference types) easily.
+
+The Bind function is the glue that provides us with the ability to achieve function composition. The implementation is as follows:
+
+```csharp
+public static Maybe<V> SelectMany<T, U, V>(this Maybe<T> m, Func<T, Maybe<U>> k, Func<T, U, V> s)
+{
+    if (!m.HasValue)
+    {
+        return Maybe<V>.Empty;
+    }
+ 
+    Maybe<U> u = k(m.Value);
+    return !u.HasValue ? Maybe<V>.Empty : s(m.Value, u.Value).ToMaybe();
+}
+ 
+public static Maybe<U> Select<U, T>(this Maybe<T> m, Func<T, U> k)
+{
+    return !m.HasValue ? Maybe<U>.Empty : k(m.Value).ToMaybe();
+}
+
+public static Maybe<U> Or<T, U>(this Maybe<T> m, Func<T, U> k)
+{
+    return m.HasValue ? Maybe<U>.Empty : k(m.Value).ToMaybe();
+}
+```
+
+The functions listed above forms the basis of any monadic implementation. The usage of SelectMany lets us use it in Linq expressions easily.
+
+#### Side Effects
+
+ In addition to this, to achieve a more declarative syntax, two more extension methods are used. These lets us perform actions depending on whether there were any values.
+
+```csharp
+public static Maybe<T> Do<T>(this Maybe<T> m, Action<T> action)
+{
+    if (m.HasValue)
+    {
+        action(m.Value);
+    }
+ 
+    return m;
+}
+ 
+public static Maybe<T> DoOnEmpty<T>(this Maybe<T> m, Action action)
+{
+    if (!m.HasValue)
+    {
+        action();
+    }
+ 
+    return m;
+} 
+```
+
+### Conclusion
+
+The Do extension methods lets us perform side effect actions depending on whether a value exists or not. These two methods in conjunction with the unit and bind functions defined above lets us express our intention in a declaration fashion by using function composition.
+
+Now applying all these function, let us rewrite our original example. A step by step explanation follows the example.
+
+```csharp
+cache
+    .Get().ToMaybe()
+    .DoOnEmpty(consumer.Notify)
+    .Or(service.Retrieve)
+    .Do(consumer.Show)
+    .DoOnEmpty(consumer.Error);
+```
+
+First, we are converting the result from Get() to Maybe monad using the Bind function (Line 2).
+
+The remaining three lines deal with the case where there is no value. We first notify the user using `DoIfEmpty` (Line 3)
+
+We then retrieve the item from the server using the retrieve method. We do this by using `Or` which creates a new monad by capturing the result from the retrieve method. This lets us perform further actions based on the result from the Retrieve method (Line 4).
+
+The remaining two lines ( Lines 5 and 6) shows the result to the consumer or raises an error.
+
+Though the example is a relatively simple one, it does show how function composition can result in expressing our intent in a more declarative fashion as well as abstract away recurring responsibilities, for instance, null checks.
