@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Shiva - Sivabalan (Shiva) Muthukumar</title>
+<title>Shiva</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,20 +23,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -64,19 +67,77 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
 
-<link rel="stylesheet" href="styles.css">
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Shiva</span>
     </a>
   </div>
@@ -87,24 +148,24 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> <i class="bi bi-house-fill" role="img">
+    <a class="nav-link" href="../index.html"> <i class="bi bi-house-fill" role="img">
 </i> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio/index.html"> <i class="bi bi-trophy" role="img">
+    <a class="nav-link" href="../portfolio/index.html"> <i class="bi bi-trophy" role="img">
 </i> 
 <span class="menu-text">Portfolio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog/index.html"> <i class="bi bi-substack" role="img">
+    <a class="nav-link active" href="../blog/index.html" aria-current="page"> <i class="bi bi-substack" role="img">
 </i> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> <i class="bi bi-file-person-fill" role="img">
+    <a class="nav-link" href="../about.html"> <i class="bi bi-file-person-fill" role="img">
 </i> 
 <span class="menu-text">About</span></a>
   </li>  
@@ -129,49 +190,85 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="C#">C# <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Functional Programming">Functional Programming <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla content">
-  <img src="assets/images/profile_bg.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Sivabalan (Shiva) Muthukumar</h1>
-</div>
-<div class="quarto-title-meta">
+<main class="content" id="quarto-document-content">
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-title-sort" data-direction="asc">
+          Title
+        </option>
+     </select>
   </div>
-</header><main class="content" id="quarto-document-content">
-<section id="highly-accomplished-technical-leader-engineer-and-architect-with-a-proven-track-record-of-driving-exceptional-results-and-successfully-delivering-complex-and-scalable-solutions-across-different-technologies-and-domains." class="level5">
-<h5 data-anchor-id="highly-accomplished-technical-leader-engineer-and-architect-with-a-proven-track-record-of-driving-exceptional-results-and-successfully-delivering-complex-and-scalable-solutions-across-different-technologies-and-domains.">Highly accomplished technical leader, engineer and architect with a proven track record of driving exceptional results and successfully delivering complex and scalable solutions across different technologies and domains.</h5>
-<hr>
-<div class="grid text-start">
-<section id="thought-leader-skilled-in-mentoring-and-coaching-responsible-for-guiding-teams-and-organizations-in-modern-practices-and-concepts." class="level6 g-col-4">
-<h6 data-anchor-id="thought-leader-skilled-in-mentoring-and-coaching-responsible-for-guiding-teams-and-organizations-in-modern-practices-and-concepts."><i class="bi bi-file-easel bg-primary fs-4"></i> Thought leader skilled in mentoring and coaching, responsible for guiding teams and organizations in modern practices and concepts.</h6>
-</section>
-<section id="passionate-engineer-keen-on-learning-new-technologies-and-applying-them-to-provide-innovative-solutions-to-real-world-problems." class="level6 g-col-4">
-<h6 data-anchor-id="passionate-engineer-keen-on-learning-new-technologies-and-applying-them-to-provide-innovative-solutions-to-real-world-problems."><i class="bi bi-lightning-charge bg-primary fs-4"></i> Passionate engineer keen on learning new technologies and applying them to provide innovative solutions to real-world problems.</h6>
-</section>
-<section id="hands-on-engineer-and-architect-well-versed-in-applying-best-practices-across-foundational-pillars---security-scalability-reliability-performance-and-operational-readiness-with-a-long-history-in-cloud-native-development-and-transformation." class="level6 g-col-4">
-<h6 data-anchor-id="hands-on-engineer-and-architect-well-versed-in-applying-best-practices-across-foundational-pillars---security-scalability-reliability-performance-and-operational-readiness-with-a-long-history-in-cloud-native-development-and-transformation."><i class="bi bi-journal-richtext bg-primary fs-4"></i> Hands-on engineer and architect well versed in applying best practices across foundational pillars - security, scalability, reliability, performance and operational readiness with a long history in cloud native development and transformation.</h6>
-</section>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
 </div>
-
-
-</section>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://github.com/mshiva" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">github</span>
-  </a>
-  <a href="https://linkedin.com/in/sivabalanmuthukumar" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">linkedin</span>
-  </a>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+</th>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+Description
+</th>
+<th>
+Categories
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Functional Programming,C#" data-listing-date-sort="1298264400000" data-listing-file-modified-sort="1734128991867" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1013" data-listing-title-sort="Functional Programming in C# - Maybe Monad" data-listing-filename-sort="functional_programming_csharp_maybe_monad.qmd">
+<td>
+<span class="listing-image"><div class="listing-item-img-placeholder card-img-top" style="height: 40px;">&nbsp;</div></span>
+</td>
+<td>
+<span class="listing-date">Feb 21, 2011</span>
+</td>
+<td>
+<a href="../blog/functional_programming_csharp_maybe_monad.html" class="title listing-title">Functional Programming in C# - Maybe Monad</a>
+</td>
+<td>
+<span class="listing-description">Quick overview of implementing and using Maybe monad in C#</span>
+</td>
+<td>
+<span class="listing-categories">Functional Programming, C#</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
 </div>
-</div>
- <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -192,6 +289,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

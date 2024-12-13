@@ -1,0 +1,19 @@
+[
+  {
+    "listing": "/portfolio/index.html",
+    "items": [
+      "/portfolio/instore_channel.html",
+      "/portfolio/merchant_network_partnership.html",
+      "/portfolio/platform.html",
+      "/portfolio/credit_decisioning.html",
+      "/portfolio/yield_book.html",
+      "/portfolio/rule_engine.html"
+    ]
+  },
+  {
+    "listing": "/blog/index.html",
+    "items": [
+      "/blog/functional_programming_csharp_maybe_monad.html"
+    ]
+  }
+]

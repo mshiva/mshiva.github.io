@@ -1,11 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://mshiva.github.io/about.html</loc>
-    <lastmod>2024-01-29T22:24:00.199Z</lastmod>
+    <loc>https://mshiva.github.io/portfolio/instore_channel.html</loc>
+    <lastmod>2024-12-12T21:11:15.640Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mshiva.github.io/portfolio/index.html</loc>
+    <lastmod>2024-12-12T22:15:09.964Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mshiva.github.io/portfolio/rule_engine.html</loc>
+    <lastmod>2024-12-12T21:11:29.948Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mshiva.github.io/portfolio/merchant_network_partnership.html</loc>
+    <lastmod>2024-12-12T21:11:20.995Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mshiva.github.io/blog/functional_programming_csharp_maybe_monad.html</loc>
+    <lastmod>2024-12-13T22:29:51.867Z</lastmod>
   </url>
   <url>
     <loc>https://mshiva.github.io/index.html</loc>
     <lastmod>2024-01-28T22:42:17.096Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mshiva.github.io/blog/index.html</loc>
+    <lastmod>2024-12-13T22:31:51.903Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mshiva.github.io/about.html</loc>
+    <lastmod>2024-01-29T22:24:00.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mshiva.github.io/portfolio/platform.html</loc>
+    <lastmod>2024-12-12T21:07:29.971Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mshiva.github.io/portfolio/yield_book.html</loc>
+    <lastmod>2024-12-12T21:11:25.238Z</lastmod>
+  </url>
+  <url>
+    <loc>https://mshiva.github.io/portfolio/credit_decisioning.html</loc>
+    <lastmod>2024-12-12T21:01:58.051Z</lastmod>
   </url>
 </urlset>
