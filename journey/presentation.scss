@@ -1,0 +1,50 @@
+/*-- scss:rules --*/
+
+.reveal .footer a {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.reveal .footer a::before {
+  content: "\2302";
+}
+
+.reveal .slides section .fragment.fade-in-then-out {
+  opacity: 0;
+  display: none;
+}
+
+.reveal .slides section .fragment.fade-in-then-out.current-fragment {
+  opacity: 1;
+  display: inline-block;
+}
+
+.reveal .slides section .fragment.fade-in-then-out.current-fragment p{
+  font-weight: bold;
+}
+
+.reveal .slides section .fragment.fade-in-then-out.current-fragment ul{
+  opacity: 1;
+  display: inline-block;
+  font-size: 85%;
+}
+
+.reveal .slides section .column.smaller p {
+  font-size: 75%;
+}
+
+.reveal .slides section .column.bolder p {
+  font-weight: bold;
+}
+
+.reveal .slides section .small {
+  font-size: 60%;
+}
+
+.reveal .slides section .smaller {
+  font-size: 75%;
+}
+
+.reveal .slides section .medium {
+  font-size: 85%;
+}

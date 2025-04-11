@@ -1,0 +1,432 @@
+---
+title: "My Journey"
+title-slide-attributes:
+  data-background-image: /assets/images/presentation_title_bg.jpg
+  data-background-size: contain
+  data-background-opacity: "0.5"
+format: 
+  revealjs: 
+    footer: "[Home](index.qmd)"
+    theme: [default, presentation.scss]
+    controls-layout: bottom-right
+    controls: true
+    transition: slide
+    background-transition: fade
+    height: 920
+editor:
+  render-on-save: true
+---
+
+## About Me {background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns}
+
+::: {.column width="50%" .smaller .bolder}
+![](/assets/images/nj.jpg){width="450" height="350"}
+
+New Jersey - 15 Years
+:::
+
+::: {.column width="50%"}
+### Hobbies
+
+::: {.fragment .fade-in-then-out}
+
+Books
+
+* Science Fiction
+* Fantasy
+:::
+
+::: {.fragment .fade-in-then-out}
+Sports
+
+- VolleyBall
+- Tennis
+:::
+
+:::
+
+::::
+
+## Schooling {background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns}
+
+::: {.column width="40%" .smaller .bolder}
+![](/assets/images/school.png){width="450" height="350"}
+Chennai, India
+:::
+
+::: {.column width="60%"} 
+::: {.fragment .fade-in-then-out}
+First Contact
+
+- Games (Elementary)
+- Programming (Middle School)
+
+Continued Interest
+
+* Additional Classes
+* Programming competions
+:::
+
+::: {.fragment .fade-in-then-out}
+Decision
+
+* CS High School Elective
+* CS College Major
+:::
+
+::: {.fragment .fade-in-then-out}
+Languages & System
+
+- Basic, C
+- DOS, Windows
+:::
+:::
+
+::::
+
+## Undergrad {background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns}
+
+::: {.column width="40%" .smaller .bolder}
+![](/assets/images/college.png){width="450" height="350"}
+
+Bachelors in Computer Science
+
+Chennai, India
+:::
+
+::: {.column width="60%"} 
+::: {.fragment .fade-in-then-out}
+Foundations & Theory
+
+* Data Structures, Algorithm
+* Compiler Design, Computer Networks
+* Distributed Computing
+
+Practical
+
+* Enrolled in 2 year CS program
+:::
+
+::: {.fragment .fade-in-then-out}
+Experiences
+
+* Built my first PC
+* Organized one of the larger computer science symposiums in the city
+  * Partnered with software services company
+:::
+
+::: {.fragment .fade-in-then-out}
+Languages & Systems
+
+- C, C++, Fortran
+- Winforms, Visual Basic
+- Javascript, HTML
+- DBase, FoxPro
+- Windows, Linux
+:::
+:::
+
+::::
+
+## Grad School {background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns}
+
+::: {.column width="40%" .smaller .bolder}
+![](/assets/images/gradschool.png){width="450" height="350"}
+
+Masters in Computer Science
+
+Lubbock, Texas
+:::
+
+::: {.column width="60%"} 
+::: {.fragment .fade-in-then-out}
+Courses
+
+* Algorithms, Intelligent Systems
+* Compiler Construction, Advanced OS Design
+* Computer Systems Security
+
+:::
+
+::: {.fragment .fade-in-then-out}
+Research
+
+* Computer Vision
+* Thesis - Scene Based Image Analysis & Classification
+
+Languages & Systems
+
+* C, C++, Java
+* Prolog
+* Linux
+
+:::
+
+:::
+
+::::
+
+## Career - Part Time{background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns .smaller}
+
+Graduate Assistant working part-time at Texas Tech University enabling various groups by leveraging technology
+
+*2003 - 2005*
+
+::: {.column width="33%"}
+**Application Developer**
+
+*Animal & Food Science*
+:::
+
+::: {.column width="33%"} 
+**Network Administrator**
+
+*College of Engineering*
+
+:::
+
+::: {.column width="33%"} 
+**Web Programmer**
+
+*College of Engineering - Remote Education*
+
+:::
+
+----
+
+**Technologies**
+
+* Visual Basic, VBScript, C#, .net
+* Javascript, HTML, Coldfusion, Flash
+* Windows
+
+::::
+
+## Career - Early Days{background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns .smaller}
+
+Primary focus was developing thick client and some web applications leveraging the .net platform.
+
+::: {.column width="50%"}
+**Senior Programmer Analyst**
+
+*Texas Tech Budget Office*
+
+*2005-2006*
+
+* Web based Content Portal
+* Report Generation & Management
+
+:::
+
+::: {.column width="50%"} 
+**Lead Engineer**
+
+*Glaxo Smith Kline*
+
+*2006-2007*
+
+* Desktop application for Study Management
+
+:::
+
+----
+
+**Technologies**
+
+* C#, .net, Javascript
+* IIS, SQL Server, Oracle 
+* SQL Server Reporting
+
+::::
+
+## Career - Investment Banks {background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns .smaller}
+
+Develop high performance desktop trading applications for investment banks.
+
+::: {.column width="50%"}
+**Associate**
+
+*Morgan Stanley*
+
+*2007-2009*
+
+* Lead design & development of a new Trade Capture Platform
+* Enhancements to self trading desktop platform
+
+:::
+
+::: {.column width="50%"} 
+**Assistant Vice President**
+
+*Barclays*
+
+*2009*
+
+* Risk platform enhancements
+
+:::
+
+----
+
+**Technologies**
+
+* C#, WPF, .net, Javascript
+* Pub/Sub 
+
+::::
+
+## Career - Lab49{background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns .smaller}
+
+Joined Lab49 - a boutique consulting company focussing on tranformational solutions. Exposure to wide variety of technologies, methodologies, scope and type of projects.
+
+::: {.column width="40%"}
+**Software Engineer / Senior Software Engineer**
+
+*2009 - 2012*
+
+* Marking Making application
+* Velocity FX Desktop - FX Trading
+* Portfolio Analysis & Visualization
+* Unified Enterprise Portal
+* Equities OMS
+:::
+
+::: {.column width="30%"} 
+**Principal Software Engineer**
+
+*2012 - 2015*
+
+* Business Rule Engine
+* Yield Book - Fixed Income Analytics Platform
+* Career Management
+:::
+
+::: {.column width="30%"} 
+**Associate Director - Compute Practice**
+
+*2015 - 2016*
+
+* Hiring
+* Pre-sales, Proposals
+* Architectural Reviews, Standards, Training
+* Onboarding & Training
+
+:::
+
+----
+
+**Technologies**
+
+:::: {.columns .medium}
+
+::: {.column width="50%"} 
+* C#, .net, WPF
+* Java, Scala, Python
+* Javascript, Backbone, Angular, React, NodeJS
+:::
+
+::: {.column width="50%"} 
+* Messaging - Kafka, MQ, Tibco
+* Agile, Scrum, DevOps, CI/CD
+* Quality - TDD, BDD, Test Automation 
+:::
+
+::::
+
+::::
+
+## Career - Digital Asset{background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns .smaller}
+
+Joined Digital Asset, an early stage technology startup focussed on leveraging cutting edge blockchain and smart contracts to disrupt traditional techniques.
+
+*2016 - 2019*
+
+**Team Lead**
+
+* Led architecture and design of solution framework
+* Roadmap and Delivery Planning
+* Developed smart contract for equities clearing and clearing solution
+* Platform API Design
+* Platform performance and monitoring improvement
+
+----
+
+**Technologies**
+
+* Java, Scala, Python, NodeJS
+* DAML (Smart Contracts)
+* Cassandra, Postgres
+* Kubernetes, AWS, GCP
+* Rest, gRPC, Kafka
+
+::::
+
+## Career - Bread / Bread Financial{background-image="/assets/images/presentation_bg.png" background-opacity="0.5"}
+
+:::: {.columns .smaller}
+
+Joined Bread - a mature product focussed startup leveraging technology to provide white-labeled digital payment solutions to customers and clients. Acquired in 2021 by Alliance Data Systems rebranded to Bread Financial
+
+::: {.column width="30%"}
+**Director Engineering**
+
+*2019 - 2020*
+
+* Setup product aligned teams 
+* Platform improvements
+  * CI/CD, Kubernetes
+* Credit Decisioning Platform
+:::
+
+::: {.column width="70%"} 
+**Principal Software Engineer / Enterprise Architect**
+
+*2020 - 2023*
+
+* Platform Foundations - API, Security, Reliability, Operational Excellence
+* Principles, Standards and Guidelines
+* Platform Capabilities - Webhooks, Auditing, AuthZ
+* Instore, Merchant Network Partnership
+* Core Frameworks
+* Capability Mapping, Value Stream Mapping
+* Cloud Modernization - Cards business
+:::
+
+----
+
+**Technologies**
+
+:::: {.columns .medium}
+
+::: {.column width="50%"} 
+* Golang, Java, Paython
+* Messaging/Streaming - ActiveMQ, Kafka, Flinks
+* AWS, Azure
+:::
+
+::: {.column width="50%"} 
+* Agile, Scrum, DevOps, CI/CD
+* Test Automation 
+:::
+
+::::
+
+::::
