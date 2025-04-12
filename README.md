@@ -44,6 +44,7 @@ A simple portfolio website built and generated using Quarto.
 
 * [![Quarto][Quarto]][Quarto-url]
 
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -53,6 +54,9 @@ A simple portfolio website built and generated using Quarto.
 
 * Quarto
   > Install quarto from their website for the appropriate OS [Quarto][Quarto-url]
+* Justfile
+  > Install justfile using homebrew
+
 
 <!-- USAGE EXAMPLES -->
 ## Usage
