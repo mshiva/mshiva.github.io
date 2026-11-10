@@ -14,6 +14,24 @@ format:
 
 ## [Experience]{.text-info}
 
+#### [**Addepar**]{.text-info-emphasis}
+::: {.callout-note appearance="simple" icon="false"}
+:::{.grid .text-start}
+
+:::{.g-col-6}
+**Principal Engineer**
+:::
+:::{.g-col-3 .text-end}
+New York
+:::
+:::{.g-col-3 .text-end}
+Oct 2025 - Present
+:::
+
+:::
+Principal Engineer & Architect leading the strategic evolution of wealth management platform to deliver enterprise-grade scale, resilience, and high performance.
+:::
+
 #### [**Bread Financial Holdings**]{.text-info-emphasis}
 ::: {.callout-note appearance="simple" icon="false"}
 
@@ -26,7 +44,7 @@ format:
 New York
 :::
 :::{.g-col-3 .text-end}
-Apr 2020 - Present
+Apr 2020 - Oct 2025
 :::
 
 :::
